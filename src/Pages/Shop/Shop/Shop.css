@@ -1,0 +1,10 @@
+.custom-card{
+    position: relative;
+    transition: all ease-in-out 5s;
+}
+.custom-card:hover .custom-btn{
+    display: block;
+}
+.custom-btn{
+    display: none;
+}
