@@ -56,13 +56,13 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-10'>
+            <div className='my-10'>
                 <h4 className='text-3xl capitalize font-medium text-center mb-5'>contact us</h4>
                 <form action="">
                     <input className='w-full bg-inherit outline-none border-b-2 border-slate-500 py-2 px-3' type="email" placeholder='Type Your Email' name='email' />
                     <input className='w-full bg-inherit outline-none border-b-2 border-slate-500 py-2 px-3 mt-2' type="text" placeholder='Subject' name='subject'/>
                     <textarea className='w-full bg-inherit outline-none border-b-2 border-slate-500 py-2 px-3 mt-2' name="message" placeholder='Type Your Message Here' id="message" cols="30" rows="10"></textarea>
-                    <button className='btn btn-neutral my-5 w-full' type="submit">send message</button>
+                    <button className='cutom_button' type="submit">send message</button>
                 </form>
             </div>
         </div>

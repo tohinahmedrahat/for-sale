@@ -39,14 +39,14 @@ const Home = () => {
                 <div className='md:block hidden'>
                     <h6 className='uppercase text-xl font-medium'>/Home</h6>
                 </div>
-                <div className='md:flex gap-x-5 items-center mb-2 md:mb-0 w-2/4'>
-                    <select className="select select-info w-full max-w-xs">
+                <div className='mb-2 md:mb-0'>
+                    {/* <select className="select select-info w-full max-w-xs">
                         <option disabled selected>Select language</option>
                         <option>English</option>
                         <option>Japanese</option>
                         <option>Italian</option>
-                    </select>
-                    <input type="text" placeholder="Type here" className="input input-bordered input-secondary w-full max-w-xs" />
+                    </select> */}
+                    <input type="text" placeholder="Type here" className="input outline-none input-bordered input-secondary w-full max-w-xs" />
                 </div>
             </div>
             <div className='md:grid grid-cols-3 gap-10 mt-10'>

@@ -8,6 +8,7 @@ import Login from "../Pages/Login/Login";
 import Ragistration from "../Pages/Registration/Ragistration";
 import Wishlist from "../Pages/Wishlist/Wishlist";
 import Cart from "../Pages/Cart/Cart";
+import SinglePost from "../Pages/Blog/SinglePost";
 
 const router = createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         {
             path:"blog",
             element:<Blog></Blog>
+        },
+        {
+            path:"/post/:id",
+            element:<SinglePost></SinglePost>
         },
         {
             path:"login",

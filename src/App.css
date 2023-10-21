@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom_border{
+    position: relative;
+  }
+  
+  .custom_border:hover:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    border-bottom: solid 1px #fff;
+    animation: border_anim 2s infinite linear alternate;
+  }
+  
+  @keyframes border_anim {
+    0%{
+      width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+      width: 0%;
+      right: 0;
+    }
+  }
+
+  .cutom_button {
+    width: 100%;
+    margin-top: 20px;
+    text-transform: capitalize;
+    height: 3em;
+    border-radius: 10em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -2px -2px 6px #ffffff;
+   }
+   
+   .cutom_button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 10em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .cutom_button:hover::before {
+    width: 100%;
+   }

@@ -11,11 +11,11 @@ const Shop = () => {
                     <h6 className='uppercase text-xl font-medium'>/Home/Shop</h6>
                 </div>
                 <div className='md:flex gap-x-5 items-center mb-2 md:mb-0 w-2/4'>
-                    <select className="select select-info w-full max-w-xs">
-                        <option disabled selected>Select language</option>
-                        <option>English</option>
-                        <option>Japanese</option>
-                        <option>Italian</option>
+                    <select className="select select-info capitalize w-full max-w-xs">
+                        <option disabled selected>Sort by categorys</option>
+                        <option>shoe</option>
+                        <option>bike</option>
+                        <option>clothes</option>
                     </select>
                     <input type="text" placeholder="Type here" className="input input-bordered input-secondary w-full max-w-xs" />
                 </div>
