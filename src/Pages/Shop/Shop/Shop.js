@@ -21,12 +21,12 @@ const Shop = () => {
                 </div>
             </div>
             <div className='md:grid grid-cols-4 gap-10 my-10'>
-                <div className='col-span-3 md:grid grid-cols-4 gap-5'>
+                <div className='col-span-3 md:grid grid-cols-3 gap-5'>
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -36,8 +36,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -47,8 +47,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -58,8 +58,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -69,8 +69,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -80,8 +80,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -91,8 +91,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -102,8 +102,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -113,41 +113,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
-                        </div>
-                        <div className='flex justify-between mt-1'>
-                            <h5>hp laptop</h5>
-                            <h6>price : 37500</h6>
-                        </div>
-                    </div>
-                    <div className='capitalize custom-card relative'>
-                        <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
-                        <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
-                        </div>
-                        <div className='flex justify-between mt-1'>
-                            <h5>hp laptop</h5>
-                            <h6>price : 37500</h6>
-                        </div>
-                    </div>
-                    <div className='capitalize custom-card relative'>
-                        <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
-                        <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
-                        </div>
-                        <div className='flex justify-between mt-1'>
-                            <h5>hp laptop</h5>
-                            <h6>price : 37500</h6>
-                        </div>
-                    </div>
-                    <div className='capitalize custom-card relative'>
-                        <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
-                        <div className='custom-btn'>
-                            <button className='top-2 text-3xl right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-[#9F40FD] bottom-7'>add to cart</button>
+                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>

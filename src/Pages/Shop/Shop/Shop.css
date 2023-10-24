@@ -1,10 +1,22 @@
-.custom-card{
-    position: relative;
-    transition: all ease-in-out 5s;
-}
-.custom-card:hover .custom-btn{
-    display: block;
-}
-.custom-btn{
-    display: none;
-}
+
+.custom_border_anim{
+    
+  }
+  
+  .custom_border_anim:hover:before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    bottom: 0px;
+    border-bottom: solid 2px #000;
+    animation: border_animat 2s linear alternate;
+  }
+  
+  @keyframes border_animat {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }

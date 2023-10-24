@@ -5,7 +5,7 @@ const Cart = () => {
     return (
         <div className='md:mx-10 mx-3'>
             <div className='md:block hidden mt-10'>
-                <h6 className='uppercase text-xl font-medium'>Home / wishlist</h6>
+                <h6 className='uppercase text-xl font-medium'>Home / cart</h6>
             </div>
             <div className="overflow-x-auto my-10">
                 <table className="table">
