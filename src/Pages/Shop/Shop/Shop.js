@@ -2,8 +2,24 @@ import React from 'react';
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs';
 import { AiOutlineHeart } from 'react-icons/ai';
 import "./Shop.css"
+import Program from '../../../Shear/Program/Program';
 
 const Shop = () => {
+    const {addItemToLocalStore} = Program()
+    const addToWishList = () => {
+        console.log("hellow wish list")
+    }
+    const addToCart = () => {
+       const item ={
+            name:"tohin",
+            age:"27",
+            passion:"developer",
+            like:"program",
+            want:"hacker"
+        }
+        
+        addItemToLocalStore(JSON.stringify(item))
+    }
     return (
         <div className='md:mx-10 mx-3'>
             <div className='md:flex justify-between items-center mt-10'>
@@ -25,8 +41,8 @@ const Shop = () => {
                     <div className='capitalize custom-card relative'>
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
-                            <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
+                            <button onClick={addToWishList} className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
+                            <button onClick={addToCart} className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -37,7 +53,7 @@ const Shop = () => {
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
                             <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
+                            <button onClick={addToCart} className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -48,7 +64,7 @@ const Shop = () => {
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
                             <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
+                            <button onClick={addToCart} className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>
@@ -59,7 +75,7 @@ const Shop = () => {
                         <img className='rounded-md' src="https://nairametrics.com/wp-content/uploads/2022/02/Laptop-.jpg" alt="" srcset="" />
                         <div className='custom-btn'>
                             <button className='top-2 text-3xl bg-white text-black rounded right-2 absolute'><AiOutlineHeart></AiOutlineHeart></button>
-                            <button className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
+                            <button onClick={addToCart} className='absolute capitalize py-2 font-medium w-full bg-white text-black bottom-7'>add to cart</button>
                         </div>
                         <div className='flex justify-between mt-1'>
                             <h5>hp laptop</h5>

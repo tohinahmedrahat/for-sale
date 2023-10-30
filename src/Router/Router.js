@@ -9,6 +9,8 @@ import Ragistration from "../Pages/Registration/Ragistration";
 import Wishlist from "../Pages/Wishlist/Wishlist";
 import Cart from "../Pages/Cart/Cart";
 import SinglePost from "../Pages/Blog/SinglePost";
+import Checkout from "../Shear/Checkout/Checkout";
+import SingleOrder from "../Shear/SingleOrder/SingleOrder";
 
 const router = createBrowserRouter([
     {
@@ -50,6 +52,14 @@ const router = createBrowserRouter([
         {
             path:"cart",
             element:<Cart></Cart>
+        },
+        {
+            path:"/checkout",
+            element:<Checkout></Checkout>
+        },
+        {
+            path:"/order/:id",
+            element:<SingleOrder></SingleOrder>
         },
       ]
     },

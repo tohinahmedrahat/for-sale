@@ -1,7 +1,15 @@
 import React from 'react';
 import { TiDelete } from 'react-icons/ti';
+import { Link } from 'react-router-dom';
+import Program from '../../Shear/Program/Program';
 
 const Cart = () => {
+    const {addItemToLocalStore} = Program()
+   
+    const data={
+        name:"tohin",
+        date:"10/25/23"
+    }
     return (
         <div className='md:mx-10 mx-3'>
             <div className='md:block hidden mt-10'>
@@ -32,7 +40,7 @@ const Cart = () => {
                             </td>
                             <td className='capitalize text-xl font-medium'>in stock</td>
                             <th>
-                                <button className="btn btn-ghost btn-xs">order</button>
+                                <Link to={`/order/${1}`} className="btn btn-ghost btn-xs">order</Link>
                             </th>
                         </tr>
                         <tr>
@@ -107,9 +115,15 @@ const Cart = () => {
                                 <button className="btn btn-ghost btn-xs">order</button>
                             </th>
                         </tr>
-
                     </tbody>
-
+                    <tfoot className='border-t capitalize text-xl font-medium'>
+                        <tr>
+                            <th>total product</th>
+                            <th>4</th>
+                            <th>$123</th>
+                            <th><Link to="/checkout" data={data}>Checkout</Link></th>
+                        </tr>
+                    </tfoot>
                 </table>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { TiDelete } from 'react-icons/ti';
+import { Link } from 'react-router-dom';
 
 const Wishlist = () => {
     return (
@@ -35,7 +36,7 @@ const Wishlist = () => {
                                 <button className="btn btn-ghost btn-xs">add to cart</button>
                             </td>
                             <td>
-                                <button className="btn btn-ghost btn-xs">order</button>
+                                <Link to={`/order/${1}`} className="btn btn-ghost btn-xs">order</Link>
                             </td>
                         </tr>
                         <tr>
