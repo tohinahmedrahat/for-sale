@@ -11,6 +11,7 @@ import Cart from "../Pages/Cart/Cart";
 import SinglePost from "../Pages/Blog/SinglePost";
 import Checkout from "../Shear/Checkout/Checkout";
 import SingleOrder from "../Shear/SingleOrder/SingleOrder";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 const router = createBrowserRouter([
     {
@@ -60,6 +61,20 @@ const router = createBrowserRouter([
         {
             path:"/order/:id",
             element:<SingleOrder></SingleOrder>
+        },
+        {
+            path:"dashboard",
+            element:<Dashboard></Dashboard>,
+            children:[
+                {
+                    path:"/dashboard/addProduct",
+                    element:<h1>add product</h1>
+                },
+                {
+                    path:"/dashboard/addCategory",
+                    element:<h1>add category</h1>
+                },
+            ]
         },
       ]
     },

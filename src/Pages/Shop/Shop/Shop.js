@@ -11,14 +11,14 @@ const Shop = () => {
     }
     const addToCart = () => {
        const item ={
-            name:"tohin",
+            name:"nika",
             age:"27",
             passion:"developer",
             like:"program",
-            want:"hacker"
+            want:"hacker",
         }
-        
-        addItemToLocalStore(JSON.stringify(item))
+        item.count = 1
+        addItemToLocalStore(item)
     }
     return (
         <div className='md:mx-10 mx-3'>

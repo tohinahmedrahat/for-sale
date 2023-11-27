@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import UseAuth from '../UseAuth/UseAuth';
 
 const Header = () => {
+    const {user,singOut} = UseAuth()
     const menuItem = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="shop">Shop</Link></li>
         <li><Link to="about">About</Link></li>
         <li><Link to="blog">Blog</Link></li>
+        <li><Link to="/dashboard">Dashboard</Link></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -28,8 +31,10 @@ const Header = () => {
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul tabIndex={0} className="menu menu-horizontal uppercase mt-3 z-[1] p-2 shadow bg-base-100 rounded-box ">
-                    <li><Link to="login">Login</Link></li>
-                    <li><Link to="registration">registration</Link></li>
+                    {
+                        user.email?<><li className='capitalize pt-2'>{user.displayName}</li><li><button onClick={singOut}>Sing Out</button></li></>:<><li><Link to="login">Login</Link></li>
+                        <li><Link to="registration">registration</Link></li></>
+                    }
                     <li><Link to="wishlist">wishlist</Link></li>
                     <li><Link to="cart">cart</Link></li>
                 </ul>

@@ -4,12 +4,10 @@ import { Link } from 'react-router-dom';
 import Program from '../../Shear/Program/Program';
 
 const Cart = () => {
-    const {addItemToLocalStore} = Program()
-   
-    const data={
-        name:"tohin",
-        date:"10/25/23"
-    }
+    const {getItemToLocatstore} = Program()
+   const cart = getItemToLocatstore()
+   console.log(cart)
+    
     return (
         <div className='md:mx-10 mx-3'>
             <div className='md:block hidden mt-10'>
@@ -20,7 +18,7 @@ const Cart = () => {
                     <tbody>
                         {/* row 1 */}
                         <tr>
-                            <th>
+                            <th className='w-[20px]'>
                                 <button className="text-3xl"><TiDelete></TiDelete></button>
                             </th>
                             <td>
@@ -121,7 +119,7 @@ const Cart = () => {
                             <th>total product</th>
                             <th>4</th>
                             <th>$123</th>
-                            <th><Link to="/checkout" data={data}>Checkout</Link></th>
+                            <th><Link to="/checkout" >Checkout</Link></th>
                         </tr>
                     </tfoot>
                 </table>
