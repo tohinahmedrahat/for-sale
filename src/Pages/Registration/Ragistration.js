@@ -79,7 +79,7 @@ const Ragistration = () => {
             </Link>
           </form>
           <div className="flex">
-            <button className="flex mt-10 items-center lowercase btn btn-accent">
+            <button onClick={singInWithGoogle} className="flex mt-10 items-center lowercase btn btn-accent">
               <AiOutlineGooglePlus className="text-2xl -mr-1"></AiOutlineGooglePlus>
               oogle
             </button>

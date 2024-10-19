@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { AiOutlineGooglePlus, AiFillInstagram } from 'react-icons/ai';
 import UseAuth from '../../Shear/UseAuth/UseAuth';
 const Login = () => {
-    const {singInWithEmail,SetUser} = UseAuth()
+    const {singInWithEmail,SetUser,singInWithGoogle} = UseAuth()
     const login = (event) =>{
         event.preventDefault();
         const from = event.target
@@ -44,7 +44,7 @@ const Login = () => {
                         <Link className='btn btn-accent ml-5' to="/registration">create account</Link>
                     </form>
                     <div className='flex'>
-                        <button className='flex mt-10 items-center lowercase btn btn-accent'><AiOutlineGooglePlus className='text-2xl -mr-1'></AiOutlineGooglePlus>oogle</button>
+                        <button onClick={singInWithGoogle} className='flex mt-10 items-center lowercase btn btn-accent'><AiOutlineGooglePlus className='text-2xl -mr-1'></AiOutlineGooglePlus>oogle</button>
                         <button className='flex mt-10 items-center ml-5 btn btn-accent'><AiFillInstagram className='text-2xl -mr-1'></AiFillInstagram>instagram</button>
                     </div>
                 </div>
